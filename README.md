@@ -1,5 +1,7 @@
 # Ejercicios_Tema5
 
+https://github.com/jaimecortezon/Ejercicios_Tema5.git
+
 Ejercicio 1
 
 ¿Eres capaz de desarrollar un reloj de horas, minutos y segundos utilizando el módulo datetime con la hora actual? Hazlo en un script llamado reloj.py y ejecútalo en la terminal:
