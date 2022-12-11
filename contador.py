@@ -1,12 +1,13 @@
 import sys
- fichero=open("contador.txt","a+")
- fichero.seek(0)
- contenido=fichero.readline()
- if len(contenido)==0:
+
+fichero=open("contador.txt","a+")
+fichero.seek(0)
+contenido=fichero.readline()
+if len(contenido)==0:
      contenido="0"
      fichero.write(contenido)
- fichero.close()
- try:
+fichero.close()
+try:
      contador=int(contenido)
      if len(sys.argv)==2:
          if sys.argv[1]=="inc":
@@ -17,5 +18,5 @@ import sys
      fichero=open("contador.txt","w")
      fichero.write(str(contador))
      fichero.close()
- except:
+except:
      print("Error en archivo")
